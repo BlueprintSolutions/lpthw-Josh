@@ -20,8 +20,8 @@ print("now I will count the eggs:")
 
 ### Answer is 6.75 but I keep getting 6.83
 print(3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6) #due to PEMDAS the simple formula is
-print(3 + 2 + 1 - 5 + (4 % 2) - (1 / 4) + 6)
-print(6.00 - 5.00 + 0.08 - 0.00 + 6.00) #(4 % 2) is a modulus operator which means that the result is the remainder of 4/2 which is 0
+#print(3 + 2 + 1 - 5 + (4 % 2) - (1 / 4) + 6)
+#print(6.00 - 5.00 + 0.08 - 0.00 + 6.00) #(4 % 2) is a modulus operator which means that the result is the remainder of 4/2 which is 0
 
 #print(6.75)
 
