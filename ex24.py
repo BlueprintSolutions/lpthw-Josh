@@ -29,12 +29,12 @@ def secret_formula(started):
 start_point = 10000
 beans, jars, crates = secret_formula(start_point)
 
-print(f"with a starting point of {start_point}")
-print("Or we can print like this, With a starting point of:{}".format(start_point))
+print(f"with a starting point of {start_point}") #this is one way of formatting a print string
+print("Or we can print like this, With a starting point of:{}".format(start_point)) #this is another way of formatting a print string
 print(f"We'd have {beans} beans, {jars} Jars, and {crates} crates")
 
 start_point = start_point / 10
 
 print("we can also do that this way:")
-formula = secret_formula(start_point)
-print("We'd have {} beans, {} jars, and {} creates.".format(*formula))
+formula = secret_formula(start_point) #easy way to apply a list to a format string
+print("We'd have {} beans, {} jars, and {} creates.".format(*formula)) #shows the list results in a print function.
