@@ -125,3 +125,13 @@ https://data-flair.training/blogs/python-operator/
     **= : It performs floor division on operators and assign value to the left operand. e.g. x **= 5  is X = X ** 5
 
 """)
+
+print("""
+Q: Find out what a "flow chart" is and write a few.
+A: https://www.programiz.com/article/flowchart-programming
+
+
+Q: If you find errors in code you are reading, try to fix them and send the author your changes.
+A:
+
+""")
